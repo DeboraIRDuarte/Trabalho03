@@ -4,7 +4,7 @@ package Classes;
 	 * Essa classe representa um dictionary pair para ser usado na BPlusTree a fim de simplificar 
          * algumas partes da implementação. 
          * Implementa a comparação entre os registros a fim de facilitar uma posterior ordenação.
-         * @author @author Fabrício Guidine, Débora Duarte, Walkíria Garcia
+         * @author Fabrício Guidine, Débora Duarte, Walkíria Garcia
          * @version 1.0
 	 */
 	public class DictionaryPair implements Comparable<DictionaryPair> {

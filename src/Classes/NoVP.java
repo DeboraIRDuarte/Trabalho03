@@ -60,7 +60,7 @@ public class NoVP {
 
     /**
      * Coloca um NoVP passado como parâmetro como sendo novo filho a direita do nó.
-     * @param esq o NoVP a ser colocado.
+     * @param dir a ser colocado como filho direito do nó.
      * @see NoVP
      */
     public void setDir(NoVP dir) {

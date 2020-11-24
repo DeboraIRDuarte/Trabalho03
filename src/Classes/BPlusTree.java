@@ -3,7 +3,7 @@ import java.util.*;
 
 /**
  * Classe que implementa uma Árvore B+.
- * @author @author Fabrício Guidine, Débora Duarte, Walkíria Garcia
+ * @author Fabrício Guidine, Débora Duarte, Walkíria Garcia
  * @version 1.0
  */
 public class BPlusTree {
@@ -205,10 +205,10 @@ public class BPlusTree {
 	}
 
 	/**
-         * Dado um Array do tipo dictionarypair (uma chave inteira e um valor do tipo Registro) essa função faz uma busca
+         * Dado um Array do tipo No essa função faz uma busca
          * nesse array ordenado e retorna a posição do primeiro elemento null encontrado. Se nenhum elemento null é encontrado a 
          * função vai retornar o valor -1;
-         * @param dps: Array do tipo dictionarypair ordenado
+         * @param nos Array do tipo No onde é feita a busca.
          * @return Inteiro que representa a posição do primeiro null encontrado,  retorna -1 se nnehum valor null é encontrado.
         */
 	public int busca(No[] nos) {
@@ -567,7 +567,7 @@ public class BPlusTree {
          * determinado pelos valores inicial e término.
 	 * @param inicial: Inteiro que é o valor inicial do intervalo.
 	 * @param termino: Inteiro que é o valor final do intervalo.
-	 * @return um ArrayList<Registro> com todos os Registros cujos Ids estão dentro do intervalor determinado.
+	 * @return um ArrayList do tipo Registro com todos os Registros cujos Ids estão dentro do intervalor determinado.
          * @see Registro
 	 */
 	public ArrayList<Registro> busca(int inicial, int termino) {

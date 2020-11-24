@@ -187,7 +187,7 @@ public class Trabalho03 {
      * Busca os Registros na Árvore B+ e já adiciona as informações ao arquivo de saída.
      * @param registros os Registros a serem buscados.
      * @param bst a Árvore B+ onde os registros vão ser buscados.
-     * @see Registros
+     * @see Registro
      * @see BPlusTree
      */
     public static void BuscaBPlus(Registro[] registros, BPlusTree bst){

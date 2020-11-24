@@ -35,7 +35,6 @@ public class ArquivoSaida {
     
     /**
      * Construtor para a classe ArquivoSaida.
-     * @param tam do tipo Inteiro que representa o total saídas.
     */
     public ArquivoSaida(){
         saidas = new ArrayList<>();
@@ -53,6 +52,7 @@ public class ArquivoSaida {
     
     /**
      * Função que chama a função abrir da mesma classe, formata o arquivo para saída e faz a escrita. 
+     * @param nomeArquivo String que é o nome do arquivo a ser criado.
     */
     public void gravaSaidas(String nomeArquivo){
         abrir(nomeArquivo);
